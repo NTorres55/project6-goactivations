@@ -1,7 +1,11 @@
 nav {
-  height: 75px;
+  height: 125px;
 }
 footer {
   height: 150px;
   background-color: #282827;
+}
+.jumbotron {
+  background-color: #24ce7bff;
+  color: #fff;
 }
