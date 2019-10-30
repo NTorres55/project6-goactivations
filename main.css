@@ -20,6 +20,11 @@ footer {
   font-size: 1.5em;
 }
 
+.row {
+  padding-bottom: 210px;
+}
+
+
 h2 {
   color: #24ce7bff;
   font-weight: bolder;
