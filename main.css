@@ -15,11 +15,12 @@ footer {
 }
 h1 {
   padding: 25px;
+  font-weight: 800;
 }
 
 h2 {
   color: #24ce7bff;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 ul li {
