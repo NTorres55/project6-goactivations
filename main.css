@@ -9,7 +9,17 @@ footer {
   background-color: #24ce7bff;
   color: #fff;
 }
+h1 {
+  padding: 25px;
+}
+
 h2 {
   color: #24ce7bff;
   font-weight: bolder;
+}
+
+ul li {
+	list-style-type: none;
+	margin: 0 15px;
+	font-weight: 500;
 }
