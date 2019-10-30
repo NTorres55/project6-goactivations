@@ -9,7 +9,23 @@ footer {
   background-color: #24ce7bff;
   color: #fff;
 }
+
+#services {
+  background-color: white;
+  color: #15C97F;
+}
+
+#services h3 {
+  color: #282828;
+  font-size: 1.5em;
+}
+
 h2 {
   color: #24ce7bff;
+  font-weight: bolder;
+}
+
+h5{
+  color: #546ab2;
   font-weight: bolder;
 }
