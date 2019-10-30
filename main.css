@@ -24,6 +24,18 @@ footer {
   padding-bottom: 210px;
 }
 
+.form-group {
+  margin: 0 auto;
+}
+
+div.form-row {
+  margin: 0 auto;
+}
+
+button.btn {
+  margin: 0 auto;
+}
+
 
 h2 {
   color: #24ce7bff;
