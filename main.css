@@ -10,7 +10,7 @@ footer {
   background-color: #282827;
 }
 .jumbotron {
-  background-color: #24ce7bff;
+  background-color: #dbdbdb;
   color: #fff;
 }
 h1 {
@@ -27,4 +27,11 @@ ul li {
 	list-style-type: none;
 	margin: 0 15px;
 	font-weight: 385;
+}
+
+button {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-color: #24ce7bff;
 }
