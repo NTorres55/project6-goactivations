@@ -13,6 +13,22 @@ footer {
   background-color: #dbdbdb;
   color: #fff;
 }
+
+#services {
+  background-color: white;
+  color: #15C97F;
+}
+
+#services h3 {
+  color: #282828;
+  font-size: 1.5em;
+}
+
+.row {
+  padding-bottom: 210px;
+}
+
+
 h1 {
   padding: 25px;
   font-weight: 800;
@@ -29,6 +45,7 @@ ul li {
 	font-weight: 385;
 }
 
+<<<<<<< HEAD
 li:hover {
   color: #24ce7bff;
 }
@@ -58,4 +75,9 @@ Card for bootstrap that looked similar to the mockup.*/
   margin-right: -50%;
   transform: translate(-50%, -50%);
   padding: 20px;
+=======
+h5{
+  color: #546ab2;
+  font-weight: bolder;
+>>>>>>> 18c8f7e7eaf64e16243acf5ecb5961753e609ced
 }
