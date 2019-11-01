@@ -29,9 +29,16 @@ ul li {
 	font-weight: 385;
 }
 
+li:hover {
+  color: #24ce7bff;
+}
+
 button {
   font-size: 12px;
   font-weight: 600;
   color: white;
   background-color: #24ce7bff;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-align: center;
 }
