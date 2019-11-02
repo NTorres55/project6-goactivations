@@ -43,6 +43,7 @@ ul li {
 	list-style-type: none;
 	margin: 0 15px;
 	font-weight: 385;
+  text-transform: uppercase;
 }
 
 <<<<<<< HEAD
@@ -62,7 +63,7 @@ button {
 .container {
   position: relative;
 }
-/*text block code needs work or to be redone altoghther. Couldn't find a Responsive 
+/*text block code needs work or to be redone altoghther. Couldn't find a Responsive
 Card for bootstrap that looked similar to the mockup.*/
 .text-block {
   position: absolute;
