@@ -1,9 +1,12 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-
 nav {
   height: 125px;
+}
+nav a {
+  text-decoration: none !important;
+  color: black
 }
 footer {
   height: 150px;
@@ -23,12 +26,9 @@ footer {
   color: #282828;
   font-size: 1.5em;
 }
-
 .row {
   padding-bottom: 210px;
 }
-
-
 h1 {
   padding: 25px;
   font-weight: 800;
