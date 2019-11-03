@@ -16,7 +16,9 @@ footer {
   background-color: #dbdbdb;
   color: #fff;
 }
-
+#services-block {
+  max-width: 75%;
+}
 #services {
   background-color: white;
   color: #15C97F;
@@ -66,15 +68,16 @@ button {
 /*text block code needs work or to be redone altoghther. Couldn't find a Responsive
 Card for bootstrap that looked similar to the mockup.*/
 .text-block {
+  max-width: 55%;
   position: absolute;
   bottom: -100px;
-  background-color: white;
   width: 70%;
   color: black;
   text-align: center;
   left: 40%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255,0.8);
   padding: 20px;
 =======
 h5{
