@@ -13,8 +13,11 @@ footer {
   background-color: #282827;
 }
 .jumbotron {
-  background-color: #dbdbdb;
+  background-color: #EAEAEA;
   color: #fff;
+}
+#about {
+  background-color: white;
 }
 #services-block {
   max-width: 75%;
@@ -23,10 +26,19 @@ footer {
   background-color: white;
   color: #15C97F;
 }
-
 #services h3 {
   color: #282828;
   font-size: 1.5em;
+}
+#clients {
+  background-color: white;
+}
+#clients h3 {
+  color: black;
+  font-size: 1.5em;
+}
+#contact {
+  background-color: white;
 }
 .row {
   padding-bottom: 210px;
@@ -38,7 +50,7 @@ h1 {
 
 h2 {
   color: #24ce7bff;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 ul li {
