@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,800|Lato&display=swap');
+
+
 /*-----------------------------------
 ...............HEADER.................
 ----------------------------------- */
@@ -9,7 +12,7 @@ nav {
 }
 nav a {
   text-decoration: none !important;
-  color: black
+  color: #282828
 }
 li:hover {
   color: #24ce7b;
@@ -28,9 +31,6 @@ footer {
 #about {
   background-color: white;
 }
-#services-block {
-  max-width: 75%;
-}
 #services {
   background-color: white;
   color: #15C97F;
@@ -40,6 +40,22 @@ footer {
 }
 #contact {
   background-color: white;
+}
+.square {
+  width: 55vw;
+  height: 55vw;
+  border-radius: 5px;
+  background-image: url(images/threegirls.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.text-block {
+  color: #282828;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.8);
+  padding: 20px;
+  border-radius: 5px;
 }
 /* -----------------------------------
 .............TYPOGRAPHY...............
@@ -61,12 +77,14 @@ h5 {
   color: #546ab2;
   font-weight: bolder;
 }
-
 ul li {
-	list-style-type: none;
-	margin: 0 15px;
-	font-weight: 385;
+  list-style-type: none;
+  margin: 0 15px;
+  font-weight: 385;
   text-transform: uppercase;
+}
+p{
+  font-family: "Lato", sans-serif;
 }
 
 /* -----------------------------------
@@ -89,25 +107,12 @@ button {
   text-align: center;
   border: none;
 }
-
-.container {
-  position: relative;
-}
-/*text block code needs work or to be redone altoghther. Couldn't find a Responsive
-Card for bootstrap that looked similar to the mockup.*/
-.text-block {
-  max-width: 55%;
-  position: absolute;
-  bottom: -100px;
-  width: 70%;
-  color: black;
-  text-align: center;
-  left: 40%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255,255,255,0.8);
-  padding: 20px;
-}
 /* -----------------------------------
 ...........MEDIA QUERIES..............
 ----------------------------------- */
+@media (min-width: 1270px) {
+  .square {
+    width: 30vw;
+    height: 30vw;
+  }
+}
