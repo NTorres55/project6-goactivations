@@ -1,101 +1,103 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- favicon -->
-    		<link rel="shortcut icon" href="images/favicon.ico">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"-->
-    <link rel="stylesheet" href="main.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"-->
+  <link rel="stylesheet" href="main.css">
 
-    <title>Go!Activations</title>
-  </head>
-  <body>
-    <div class="menu container">
+  <title>Go!Activations</title>
+</head>
+<body>
+  <div class="menu container">
     <nav class="navbar">
       <img  class="logo" src="images/goactclear.png" width="100" alt="Logo" title="Logo"/>
-        <ul class="nav">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="services.html">SERVICES</a></li>
-          <li><a href="clients.html">CLIENTS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-		</nav>
+      <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="clients.html">CLIENTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
   </div>
 
   <header>
     <div class="jumbotron text-center" id="contact">
       <h2>CONTACT US!</h2>
       <h3>Let's discuss your next event</h3>
+    </div>
   </header>
 
   <main class="container">
     <div class="row">
+      <form class="col-md-8">
 
-    <form class="col-md-8">
-  <div class="form-group form-row">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="First Last">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputCompany">Company</label>
+            <input type="text" class="form-control" id="inputCompany" placeholder="Company Name">
+          </div>
+        </div>
 
-    <div class="col-sm-6">
-      <input type="text" class="form-control" placeholder="First Last">
-    </div>
-    <div class="col-sm-6">
-      <input type="text" class="form-control" placeholder=" Company Name">
-    </div>
-    </div>
-    <div class=" form-group col-sm-6">
-      <input type="text" class="form-control" placeholder="(123)-456-7890">
-    </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPhone">Phone Number</label>
+            <input type="text" class="form-control" id="inputPhone" placeholder="(123)-456-7890">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="selectOption">How can we help?</label>
+          <select class="custom-select" id="select">
+            <option selected>Select option</option>
+            <option value="1">Services</option>
+            <option value="2">Quote</option>
+            <option value="3">Something else?</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" placeholder="Begin writing here..." id="message" rows="10"></textarea>
+        </div>
+        <button type="submit">SUBMIT</button>
+      </form>
 
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-4 col-form-label">Email</label>
-    <div class="col-sm-12">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="example@email.com">
-    </div>
-  </div>
+      <div class="col-md-4" id="map">
+        <h4>You can find us here:</h4>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=146%20St.%20Regis%20Crescent%20South&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/private-internet-access-coupon/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style></div>
 
-  <div class="form-group col-sm-12">
-  <select class="custom-select" id="select">
-<option selected>How can we help?</option>
-<option value="1">Services</option>
-<option value="2">Quote</option>
-<option value="3">Something else/</option>
-</select>
-</div>
+        <div class="contact-info">
+          <p>info@goactivations.ca</p>
+          <p>146 St Regis Cres South</br>Toronto, Ontario, M3J 1Y8</br>Phone number TBD</p>
+        </div>
 
-  <div class="form-group col-sm-12">
-    <label for="message">Message</label>
-    <textarea class="form-control" placeholder="Begin writing here..." id="message" rows="10"></textarea>
-  </div>
-  <button type="submit">SUBMIT</button>
-</form>
+      </div>
 
-<div class="col-md-4" id="map">
-  <h4>You can find us here:</h4>
-  <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=146%20St.%20Regis%20Crescent%20South&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/private-internet-access-coupon/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style></div>
+    </main>
 
-  <div class="contact-info">
-    <p>info@goactivations.ca</p>
-    <p>146 St Regis Cres South</br>Toronto, Ontario, M3J 1Y8</br>Phone number TBD</p>
-</div>
+    <footer>
 
-</div>
-
-  </main>
-
-  <footer>
-
-  </footer>
+    </footer>
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
-</html>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+  </html>

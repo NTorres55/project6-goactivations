@@ -1,3 +1,6 @@
+/*-----------------------------------
+...............HEADER.................
+----------------------------------- */
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -8,6 +11,12 @@ nav a {
   text-decoration: none !important;
   color: black
 }
+li:hover {
+  color: #24ce7b;
+}
+/* -----------------------------------
+...............LAYOUT.................
+----------------------------------- */
 footer {
   height: 150px;
   background-color: #282827;
@@ -26,23 +35,15 @@ footer {
   background-color: white;
   color: #15C97F;
 }
-#services h3 {
-  color: #282828;
-  font-size: 1.5em;
-}
 #clients {
   background-color: white;
-}
-#clients h3 {
-  color: black;
-  font-size: 1.5em;
 }
 #contact {
   background-color: white;
 }
-.row {
-  padding-bottom: 210px;
-}
+/* -----------------------------------
+.............TYPOGRAPHY...............
+----------------------------------- */
 h1 {
   padding: 25px;
   font-weight: 800;
@@ -50,6 +51,14 @@ h1 {
 
 h2 {
   color: #24ce7bff;
+  font-weight: bolder;
+}
+h3 {
+  color: #282828;
+  font-size: 1.5em;
+}
+h5 {
+  color: #546ab2;
   font-weight: bolder;
 }
 
@@ -60,11 +69,16 @@ ul li {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-li:hover {
-  color: #24ce7bff;
+/* -----------------------------------
+................FOOTER................
+----------------------------------- */
+footer{
+  margin-top: 8rem;
 }
 
+/* -----------------------------------
+................MISC..................
+----------------------------------- */
 button {
   font-size: 12px;
   font-weight: 600;
@@ -73,7 +87,9 @@ button {
   border-radius: 5px;
   padding: 8px 20px;
   text-align: center;
+  border: none;
 }
+
 .container {
   position: relative;
 }
@@ -91,9 +107,7 @@ Card for bootstrap that looked similar to the mockup.*/
   transform: translate(-50%, -50%);
   background-color: rgba(255,255,255,0.8);
   padding: 20px;
-=======
-h5{
-  color: #546ab2;
-  font-weight: bolder;
->>>>>>> 18c8f7e7eaf64e16243acf5ecb5961753e609ced
 }
+/* -----------------------------------
+...........MEDIA QUERIES..............
+----------------------------------- */
