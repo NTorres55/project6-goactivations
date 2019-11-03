@@ -21,7 +21,6 @@ li:hover {
 ...............LAYOUT.................
 ----------------------------------- */
 footer {
-  height: 150px;
   background-color: #282827;
 }
 .jumbotron {
@@ -98,8 +97,74 @@ ul p {
 ----------------------------------- */
 footer{
   margin-top: 8rem;
+  padding: 20px 0;
 }
 
+footer p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer div {
+  padding: 2px;
+}
+ul.footer_list {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 20px;
+}
+ul.footer_list li {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8;
+}
+
+ul.footer_list li a {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  text-transform: none;
+}
+ul.footer_list a:hover {
+  color: #24ce7bff;
+  text-decoration: none;
+  list-style: none;
+}
+
+#hero-cta-email {
+  height: 50px;
+  width: 60%;
+}
+
+.hero-cta__form input {
+  width: 100%;
+  float: left;
+  border: none;
+  background: rgba(275, 275, 275, 0.9);
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  font-weight: 400;
+  opacity: 1;
+  display: block;
+  margin-top: 10px;
+}
+
+.hero-cta__form input:focus {
+  outline: none;
+}
+
+.emailsignup {
+  font-size: 12px;
+  margin-left: 15px;
+  height: 40px;
+  width: 30%;
+  border: none;
+  background-color: #546ab2;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin: 15px;
+}
 /* -----------------------------------
 ................MISC..................
 ----------------------------------- */
@@ -120,5 +185,12 @@ button {
   .square {
     width: 30vw;
     height: 30vw;
+  }
+}
+
+/*@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /*.footer_main {
+    padding: 0px 0px 50px 0px;
   }
 }
