@@ -15,97 +15,112 @@
   <title>Go!Activations</title>
 </head>
 <body>
-  <div class="menu container">
-    <nav class="navbar">
-      <img  class="logo" src="images/goactclear.png" width="100" alt="Logo" title="Logo"/>
-      <ul class="nav">
-        <p>416-665-3594<br>
-          contact@goactivations.com</p>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="services.html">SERVICES</a></li>
-          <li><a href="clients.html">CLIENTS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </nav>
-    </div>
+  <div class="menu container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img  class="logo" src="images/goactclear.png" width="100" alt="Logo" title="Logo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <header>
-      <div class="jumbotron text-center home-hero">
-        <h1>LET'S GET GOING!</h1>
-        <button>REQUEST A QUOTE</button>
-      </div>
-    </header>
-    <main class="container">
-      <section id="services-block">
-        <div class="container square d-flex justify-content-center align-items-end">
-          <div class="text-block mb-4">
-            <h2>WHAT WE DO</h2>
-            <p>Want to launch your brand with an event your customers will never forget? Go!Activations specializes in orgainzing dynamic, engaging, and memorable events that can push your business to the next level. Check out what we offer!</p>
-            <button>Our Services</button>
-          </div>
+        <div class="collapse navbar-collapse mr-auto" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clients.html">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </div>
+  <header>
+    <div class="jumbotron text-center home-hero">
+      <h1>LET'S GET GOING!</h1>
+      <button>REQUEST A QUOTE</button>
+    </div>
+  </header>
+  <main class="container">
+    <section id="services-block">
+      <div class="container square d-flex justify-content-center align-items-end">
+        <div class="text-block mb-4">
+          <h2>WHAT WE DO</h2>
+          <p>Want to launch your brand with an event your customers will never forget? Go!Activations specializes in orgainzing dynamic, engaging, and memorable events that can push your business to the next level. Check out what we offer!</p>
+          <button>Our Services</button>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="some-clients">
+      <h2>SOME OF OUR CLIENTS</h2>
+      <p>We're proud of our work and our clients love it too.<br>
+        Take a look at some of our most notable projects!</p>
       </section>
       <hr>
-      <section class="some-clients">
-        <h2>SOME OF OUR CLIENTS</h2>
-        <p>We're proud of our work and our clients love it too.<br>
-          Take a look at some of our most notable projects!</p>
-        </section>
-        <hr>
-        <section>
-          <h2>HAVE YOU HEARD?</h2>
-          <p>Our solid work speaks for itself. But don't just take our word for it. Our happy clients can tell you!</p>
-        </section>
-      </main>
+      <section>
+        <h2>HAVE YOU HEARD?</h2>
+        <p>Our solid work speaks for itself. But don't just take our word for it. Our happy clients can tell you!</p>
+      </section>
+    </main>
 
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-xs-6">
-              <ul class="footer_list">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="services.html">SERVICES</a></li>
-                <li><a href="clients.html">CLIENTS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-              </ul>
-            </div>
-            <div class="footer-middle col-md-6">
-              <h5>Sign up for our newsletter</h5>
-              <form class="hero-cta__form">
-                <div class="elcontainer">
-                  <div class="inner-wrap submit-container">
-                    <div class="hero-cta__input-wrap"> <input type="email" name="data[email]" required="" id="hero-cta-email" placeholder="example@email.com">
-                    </div>
-                    <button type="submit" class="emailsignup">Sign Up</button>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-6">
+            <ul class="footer_list">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="clients.html">CLIENTS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="footer-middle col-md-6">
+            <h5>Sign up for our newsletter</h5>
+            <form class="hero-cta__form">
+              <div class="elcontainer">
+                <div class="inner-wrap submit-container">
+                  <div class="hero-cta__input-wrap"> <input type="email" name="data[email]" required="" id="hero-cta-email" placeholder="example@email.com">
                   </div>
+                  <button type="submit" class="emailsignup">Sign Up</button>
                 </div>
-              </form>
-            </div>
-            <div class="col-md-3 col-xs-6">
-              <div class="footerbox">
-                <h6>146 St Regis Crescent St<br>North York, ON M3J 1Y8</h6>
-                <h6>416-665-3594</h6>
-                <h6>contact@goactivations.com</h6>
-                <ul class="d-flex justify-content-between">
-                  <li><a href="#"><img src="images/facebook.svg" alt="facebook logo"></a></li>
-                  <li><a href="#"><img src="images/instagram.svg" alt="instagram logo"></a></li>
-                  <li><a href="#"><img src="images/twitter.svg" alt="twitter logo"></a></li>
-                  <li><a href="#"><img src="images/youtube.svg" alt="youtube logo"></a></li>
-                </ul>
-                <p>©2018 Go Activations Inc.</p>
               </div>
+            </form>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="footerbox">
+              <h6>146 St Regis Crescent St<br>North York, ON M3J 1Y8</h6>
+              <h6>416-665-3594</h6>
+              <h6>info@goactivations.ca</h6>
+              <ul class="d-flex justify-content-between">
+                <li><a href="https://www.facebook.com/goactivations"><img src="images/facebook.svg" alt="facebook logo"></a></li>
+                <li><a href="https://www.instagram.com/goactivation"><img src="images/instagram.svg" alt="instagram logo"></a></li>
+                <li><a href="https://www.twitter.com/goactivations"><img src="images/twitter.svg" alt="twitter logo"></a></li>
+                <li><a href="https://www.linkedin.com/company/goactivations"><img src="images/linkedin.svg" alt="linkedin logo"></a></li>
+              </ul>
+              <p>©2018 Go Activations Inc.</p>
             </div>
           </div>
+        </div>
 
-        </footer>
+      </footer>
 
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-      </body>
-      </html>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+    </html>

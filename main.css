@@ -8,7 +8,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 nav {
-  height: 125px;
+  height: 100%;
+  text-align: right;
+}
+.menu{
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 nav a {
   text-decoration: none !important;
@@ -23,6 +30,7 @@ li:hover {
 .jumbotron {
   background-color: #EAEAEA;
   color: #fff;
+  margin-top: 115px;
 }
 .jumbotron p{
   color: #282828;
