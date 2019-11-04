@@ -56,6 +56,7 @@ footer {
   padding: 20px;
   border-radius: 5px;
 }
+
 /* -----------------------------------
 .............TYPOGRAPHY...............
 ----------------------------------- */
@@ -185,12 +186,5 @@ button {
   .square {
     width: 30vw;
     height: 30vw;
-  }
-}
-
-/*@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  /*.footer_main {
-    padding: 0px 0px 50px 0px;
   }
 }
