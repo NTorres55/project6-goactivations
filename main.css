@@ -84,9 +84,12 @@ li:hover {
 }
 
 #staff img {
-  max-width: 300px;
+  max-width: 400px;
   width: 100%;
   box-shadow: 10px 10px 5px grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* -----------------------------------
 .............TYPOGRAPHY...............
