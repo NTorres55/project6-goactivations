@@ -82,6 +82,12 @@ li:hover {
   width: 100%;
   height: 100%;
 }
+
+#staff img {
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 10px 10px 5px grey;
+}
 /* -----------------------------------
 .............TYPOGRAPHY...............
 ----------------------------------- */
@@ -123,6 +129,12 @@ p{
 
 ul p {
   font-weight: 600;
+}
+
+#staff p {
+  padding-top: 2px;
+  text-align: center;
+  font-weight: bolder;
 }
 /* -----------------------------------
 ................FOOTER................
