@@ -1,9 +1,8 @@
-var hideForm = function( {
-  // to hide
-  var form = document.getElementById('hero-cta__form');
-  form.style.display = 'none';
-  
-})
-document.getElementById('hero-cta__form').onsubmit = funtion() {
+var button = document.getElementById('submit');
 
+var myFunction = function() {
+  document.getElementById('form').style.display="none";
+  document.getElementById('thanks').style.display="block";
 }
+
+button.onclick = myFunction;

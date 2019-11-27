@@ -99,6 +99,14 @@ li:hover {
   margin-right: auto;
   margin-left: auto;
 }
+
+.main {
+  display: none;
+}
+
+#thanks {
+  display: none;
+}
 /* -----------------------------------
 .............TYPOGRAPHY...............
 ----------------------------------- */
