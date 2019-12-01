@@ -261,22 +261,6 @@ button {
     height: 100%;
   }
 }
-/* ------ easy to delete this if you guys don't like this, but will just leave here for now until it's time to upload.----*/
-@media (max-width:750px)  {
-.home-hero {
-    width: 100%;
-    height:400px;
-    background: url(images/2019Mejuri-10.jpg) center no-repeat;
-  background-size: cover;
-  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
-  animation: clips 10s ease infinite;
-}
-}
-@keyframes clips {
-  50% {
-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%)
-  }
-}
 @media (min-width: 1270px) {
   .square {
     width: 30vw;
