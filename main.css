@@ -277,3 +277,8 @@ button {
     height: 30vw;
   }
 }
+@media (max-width: 780px) {
+  #homebody {
+    max-width: 90%;
+  }
+}
